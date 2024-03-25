@@ -20,3 +20,15 @@
 
 //Задача №3
 
+let askAge = prompt('Укажите ваш возраст');
+if (askAge >= 6 && askAge <= 10) {
+ console.log('Идем на детскую площадку');
+} else if (askAge >= 11 && askAge <= 16) {
+    console.log("Едим в горы");
+} else if (askAge >= 17 && askAge <= 20) {
+    console.log("Идем в кафе");
+} else if (askAge >= 21 && askAge <= 25) {
+    console.log("Идем на дискотеку");
+} else {
+    console.log('Неверный возраст. Сидим дома.');
+}
